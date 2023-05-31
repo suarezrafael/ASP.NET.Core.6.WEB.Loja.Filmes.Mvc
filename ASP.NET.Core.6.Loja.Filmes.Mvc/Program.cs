@@ -1,7 +1,23 @@
+using ASP.NET.Core._6.Loja.Filmes.Mvc.Models.Domain;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<DatabaseContext>(opcoes =>
+{
+    opcoes.UseSqlServer(builder.Configuration.GetConnectionString("conn2"));
+});
+
+// Identity
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<DatabaseContext>()
+    .AddDefaultTokenProviders();
+
+//builder.Services.ConfigureApplicationCookie(opt => opt.LoginPath = "/UserAuthentication/Login");
 
 var app = builder.Build();
 
@@ -17,7 +33,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
