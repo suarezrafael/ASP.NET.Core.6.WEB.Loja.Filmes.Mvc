@@ -1,4 +1,5 @@
-# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
+# ![loja_filmes](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/05a7e663-736b-485c-9afb-b91f84466a48)
+
 # ASP.NET.Core.6.WEB.Loja.Filmes.Mvc
 <table>
 <tr>
@@ -11,11 +12,12 @@ Um projeto .NET Core do zero.
 </table>
 
 ## Demo
-O demo do sistema rodando :  https://iharsh234.github.io/WebApp/
+O demo do sistema rodando :  https://teste.github.io/WebApp/
 
 ## Suporte a celular
 Suporte responsividade para dispositivos móveis
-![](https://iharsh234.github.io/WebApp/images/demo/mobile.png)
+![image](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/5672cd5e-c0c8-404b-94ae-aef81b105ee1)
+
 
 ### Desenvolvimento
 Os principais tópicos a serem treinados serão:
