@@ -18,21 +18,21 @@ namespace ASP.NET.Core._6.Loja.Filmes.Mvc.Controllers
           I have create a complete tutorial for this, you can check the link in description box
          */
 
-        //public async Task<IActionResult> Register()
-        //{
-        //    var model = new RegistrationModel
-        //    {
-        //        Email = "admin@gmail.com",
-        //        Username = "admin",
-        //        Name = "Rafael",
-        //        Password = "Admin@123",
-        //        PasswordConfirm = "Admin@123",
-        //        Role = "Admin"
-        //    };
-        //    // if you want to register with user , Change Role="User"
-        //    var result = await authService.RegisterAsync(model);
-        //    return Ok(result.Message);
-        //}
+        public async Task<IActionResult> Register()
+        {
+            var model = new RegistrationModel
+            {
+                Email = "admin@gmail.com",
+                Username = "admin",
+                Name = "Rafael",
+                Password = "Admin@123",
+                PasswordConfirm = "Admin@123",
+                Role = "Admin"
+            };
+            // if you want to register with user , Change Role="User"
+            var result = await authService.RegisterAsync(model);
+            return Ok(result.Message);
+        }
 
         public async Task<IActionResult> Login()
         {
