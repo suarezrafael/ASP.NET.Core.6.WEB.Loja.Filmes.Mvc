@@ -1,4 +1,5 @@
-# ![loja_filmes](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/05a7e663-736b-485c-9afb-b91f84466a48)
+# ![loja_filmes](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/4492e3bf-9df9-4584-85fe-a4ae77ba520f)
+
 
 # ASP.NET.Core.6.WEB.Loja.Filmes.Mvc
 <table>
@@ -12,11 +13,12 @@ Um projeto .NET Core do zero.
 </table>
 
 ## Demo
-O demo do sistema rodando :  [demo rodando](http://lojafilmesaspnet.somee.com/)
+O demo do sistema rodando hospedado no somee :  [Clique Aqui](http://lojafilmesaspnet.somee.com/)
 
 ## Suporte a celular
 Suporte responsividade para dispositivos móveis
-![image](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/5672cd5e-c0c8-404b-94ae-aef81b105ee1)
+![mobile](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/f62deb5f-c350-434d-b7d9-56722512e121)
+
 
 
 ### Desenvolvimento
