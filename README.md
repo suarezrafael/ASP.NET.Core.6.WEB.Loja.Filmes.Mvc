@@ -15,6 +15,10 @@ Um projeto .NET Core do zero.
 ## Demo
 O demo do sistema rodando hospedado no somee :  [Clique Aqui](http://lojafilmesaspnet.somee.com/)
 
+## Área admin
+Usuário: admin
+Senha: Admin@123
+
 ## Suporte a celular
 Suporte responsividade para dispositivos móveis
 
