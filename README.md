@@ -1,4 +1,5 @@
-# ![loja_filmes](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/05a7e663-736b-485c-9afb-b91f84466a48)
+# ![loja_filmes](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/4492e3bf-9df9-4584-85fe-a4ae77ba520f)
+
 
 # ASP.NET.Core.6.WEB.Loja.Filmes.Mvc
 <table>
@@ -12,11 +13,13 @@ Um projeto .NET Core do zero.
 </table>
 
 ## Demo
-O demo do sistema rodando :  https://teste.github.io/WebApp/
+O demo do sistema rodando hospedado no somee :  [Clique Aqui](http://lojafilmesaspnet.somee.com/)
 
 ## Suporte a celular
 Suporte responsividade para dispositivos móveis
-![image](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/5672cd5e-c0c8-404b-94ae-aef81b105ee1)
+
+![mobile](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/f62deb5f-c350-434d-b7d9-56722512e121)
+
 
 
 ### Desenvolvimento
@@ -31,18 +34,16 @@ Os principais tópicos a serem treinados serão:
 
 ### Bugs / Requisição de novos recursos
 
-Se você encontrar um bug (o site não conseguiu lidar com a consulta e/ou apresentou resultados indesejados), por favor, abra uma issue [aqui](https://github.com/iharsh234/WebApp/issues/new) incluindo sua consulta de pesquisa e o resultado esperado.
+Se você encontrar um bug (o site não conseguiu lidar com a consulta e/ou apresentou resultados indesejados), por favor, abra uma issue [aqui](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/issues/new) incluindo sua consulta de pesquisa e o resultado esperado.
 
-Se você gostaria de solicitar uma nova função, sinta-se à vontade para fazê-lo abrindo uma issue [aqui](https://github.com/iharsh234/WebApp/issues/new). Por favor, inclua consultas de exemplo e seus resultados correspondentes.
+Se você gostaria de solicitar uma nova função, sinta-se à vontade para fazê-lo abrindo uma issue [aqui]([https://github.com/iharsh234/WebApp/issues/new](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/issues/new)). Por favor, inclua consultas de exemplo e seus resultados correspondentes.
 
 ## Construído com  
 
-- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
 - Visual Studio 2022
 - Entity Framework Core
-- MySQL
+- MSSQL
  
 
 ## Para fazer
-- 
 - 
