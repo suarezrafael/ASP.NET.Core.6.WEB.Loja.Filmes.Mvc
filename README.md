@@ -8,6 +8,8 @@
 Este é um projeto .NET Core no ASP.NET Core MVC 6.
 Realiza realiza a autorização com identity e fornece uma seção de login para administradores. 
 Um projeto .NET Core do zero.
+ 
+ lojafilmesaspnetmvc@gmail.com
 </td>
 </tr>
 </table>
