@@ -17,6 +17,7 @@ O demo do sistema rodando hospedado no somee :  [Clique Aqui](http://lojafilmesa
 
 ## Suporte a celular
 Suporte responsividade para dispositivos móveis
+
 ![mobile](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/assets/29218714/f62deb5f-c350-434d-b7d9-56722512e121)
 
 
