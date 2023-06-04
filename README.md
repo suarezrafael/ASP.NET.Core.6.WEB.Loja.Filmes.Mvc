@@ -12,7 +12,7 @@ Um projeto .NET Core do zero.
 </table>
 
 ## Demo
-O demo do sistema rodando :  [https://teste.github.io/WebApp/](http://lojafilmesaspnet.somee.com/)
+O demo do sistema rodando :  [demo rodando](http://lojafilmesaspnet.somee.com/)
 
 ## Suporte a celular
 Suporte responsividade para dispositivos móveis
@@ -31,18 +31,16 @@ Os principais tópicos a serem treinados serão:
 
 ### Bugs / Requisição de novos recursos
 
-Se você encontrar um bug (o site não conseguiu lidar com a consulta e/ou apresentou resultados indesejados), por favor, abra uma issue [aqui](https://github.com/iharsh234/WebApp/issues/new) incluindo sua consulta de pesquisa e o resultado esperado.
+Se você encontrar um bug (o site não conseguiu lidar com a consulta e/ou apresentou resultados indesejados), por favor, abra uma issue [aqui](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/issues/new) incluindo sua consulta de pesquisa e o resultado esperado.
 
-Se você gostaria de solicitar uma nova função, sinta-se à vontade para fazê-lo abrindo uma issue [aqui](https://github.com/iharsh234/WebApp/issues/new). Por favor, inclua consultas de exemplo e seus resultados correspondentes.
+Se você gostaria de solicitar uma nova função, sinta-se à vontade para fazê-lo abrindo uma issue [aqui]([https://github.com/iharsh234/WebApp/issues/new](https://github.com/suarezrafael/ASP.NET.Core.6.WEB.Loja.Filmes.Mvc/issues/new)). Por favor, inclua consultas de exemplo e seus resultados correspondentes.
 
 ## Construído com  
 
-- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
 - Visual Studio 2022
 - Entity Framework Core
-- MySQL
+- MSSQL
  
 
 ## Para fazer
-- 
 - 
