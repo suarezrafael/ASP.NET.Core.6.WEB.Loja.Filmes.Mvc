@@ -46,4 +46,4 @@ Se você gostaria de solicitar uma nova função, sinta-se à vontade para fazê
  
 
 ## Para fazer
-- 
+- Melhorar a autenticação
