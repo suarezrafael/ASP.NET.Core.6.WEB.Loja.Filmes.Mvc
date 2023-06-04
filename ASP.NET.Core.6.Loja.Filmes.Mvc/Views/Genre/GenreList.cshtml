@@ -3,12 +3,12 @@
 }
 
 <div class="tbl-container">
-    <h2>Genres</h2>
+    <h2>Gêneros</h2>
 
     <table>
         <tr>
-            <th>Name</th>
-            <th>Action</th>
+            <th>Nome</th>
+            <th>Ação</th>
         </tr>
         @foreach (var item in Model)
         {
@@ -16,13 +16,13 @@
                 <td>@item.GenreName</td>
                 <td>
                     <a href="/Genre/Edit?id=@item.Id" class="btn btn-default"><i class="fa fa-edit"></i></a>
-                    <a onclick="return window.confirm('Are you sure?')" href="/Genre/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                    <a onclick="return window.confirm('Você tem certeza?')" href="/Genre/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
                 </td>
             </tr>
         }
 
     </table>
     <div class="input-container">
-        <a href="/Genre/Add" class="btn btn-sec">Add</a>
+        <a href="/Genre/Add" class="btn btn-sec">Voltar</a>
     </div>
 </div>

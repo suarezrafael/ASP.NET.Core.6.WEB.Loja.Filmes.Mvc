@@ -3,17 +3,17 @@
 }
 
 <div class="tbl-container">
-    <h2>Movies</h2>
+    <h2>Filmes</h2>
 
     <table>
         <tr>
-            <th>Title</th>
-            <th>Genre</th>
-            <th>ReleaseYear</th>
-            <th>Image</th>
+            <th>Título</th>
+            <th>Gênero</th>
+            <th>Ano Lançamento</th>
+            <th>Imagem</th>
             <th>Cast</th>
-            <th>Director</th>
-            <th>Action</th>
+            <th>Diretor</th>
+            <th>Ação</th>
         </tr>
         @foreach(var item in Model.MovieList){
         <tr>
@@ -25,7 +25,7 @@
                 <td>@item.Director</td>
                 <td>
                 <a href="/Movie/Edit?id=@item.Id" class="btn btn-default"><i class="fa fa-edit"></i></a>
-                <a onclick="return window.confirm('Are you sure?')" href="/Movie/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                <a onclick="return window.confirm('Você tem certeza?')" href="/Movie/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
             </td>
         </tr>
         }

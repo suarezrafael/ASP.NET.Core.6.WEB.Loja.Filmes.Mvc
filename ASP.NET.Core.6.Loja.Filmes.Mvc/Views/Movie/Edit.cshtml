@@ -15,7 +15,7 @@
     </div>
 
     <div class="input-container">
-        <label asp-for="Director" class="w-40">Image</label>
+        <label asp-for="Director" class="w-40">Imagem</label>
         <input type="file" asp-for="ImageFile">
     </div>
     <div class="message-box pd-x-28 error">
@@ -23,7 +23,7 @@
     </div>
 
     <div class="input-container">
-        <label asp-for="Genres" class="w-40">Genre</label>
+        <label asp-for="Genres" class="w-40">Gênero</label>
         <select asp-items="Model.MultiGenreList" class="input" asp-for="Genres" multiple>
             <option value="">--select--</option>
         </select>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="input-container">
-        <label asp-for="ReleaseYear" class="w-40">Released Year</label>
+        <label asp-for="ReleaseYear" class="w-40">Ano Lançamento</label>
         <input type="text" class="input" asp-for="ReleaseYear">
     </div>
     <div class="message-box pd-x-28 error">
@@ -49,7 +49,7 @@
     </div>
 
     <div class="input-container">
-        <label asp-for="Director" class="w-40">Director</label>
+        <label asp-for="Director" class="w-40">Diretor</label>
         <input type="text" class="input" asp-for="Director">
     </div>
     <div class="message-box pd-x-28 error">
@@ -64,7 +64,7 @@
     }
 
     <div class="input-container">
-        <button class="btn btn-default" type="submit">Save</button>
-        <a class="btn btn-sec" href="/Movie/MovieList">All records</a>
+        <button class="btn btn-default" type="submit">Salvar</button>
+        <a class="btn btn-sec" href="/Movie/MovieList">Todos os registros</a>
     </div>
 </form>

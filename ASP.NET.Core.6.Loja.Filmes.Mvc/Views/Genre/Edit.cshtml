@@ -3,11 +3,11 @@
 }
 
 <form class="w-40" asp-action="Update" method="post">
-    <h2 class="pb-10">Update Genre</h2>
+    <h2 class="pb-10">Atualizar Gênero</h2>
     <input type="hidden" class="input" asp-for="Id">
 
     <div class="input-container">
-        <label asp-for="GenreName" class="w-40">GenreName</label>
+        <label asp-for="GenreName" class="w-40">Nome</label>
         <input type="text" class="input" asp-for="GenreName">
     </div>
     <div class="message-box pd-x-28 error">
@@ -22,7 +22,7 @@
     }
 
     <div class="input-container">
-        <button class="btn btn-default" type="submit">Save</button>
-        <a class="btn btn-sec" href="/Genre/GenreList">All records</a>
+        <button class="btn btn-default" type="submit">Salvar</button>
+        <a class="btn btn-sec" href="/Genre/GenreList">Todos os registros</a>
     </div>
 </form>

@@ -23,20 +23,20 @@
             Loja de Filmes
         </div>
         <ul class="nav-link">
-            <li><a class="active" href="/Home/Index">Home</a></li>
-            <li><a href="/Home/About">About</a></li>
-            @*@if (!string.IsNullOrEmpty(username))*@
-                @if (User.IsInRole("Admin"))
+            <li><a class="active" href="/Home/Index">Início</a></li>
+            <li><a href="/Home/About">Sobre</a></li>
+            @if (!string.IsNullOrEmpty(username))
+            @*@if (User.IsInRole("Admin"))*@
             {
-                <li>
-                    <a href="#">Admin <i class="fa fa-caret-down"></i></a>
+            <li>
+                <a href="#">Admin <i class="fa fa-caret-down"></i></a>
 
-                    <ul class="dropdown-nav-link">
-                        <li><a href="/Genre/Add">Generos</a></li>
-                        <li><a href="/Movie/Add">Filmes</a></li>
-                        <li><a href="/UserAuthentication/Logout">Sair</a></li>
-                    </ul>
-                </li>
+                <ul class="dropdown-nav-link">
+                    <li><a href="/Genre/Add">Generos</a></li>
+                    <li><a href="/Movie/Add">Filmes</a></li>
+                    <li><a href="/UserAuthentication/Logout">Sair</a></li>
+                </ul>
+            </li>
             }
 
             @if (string.IsNullOrEmpty(username))
