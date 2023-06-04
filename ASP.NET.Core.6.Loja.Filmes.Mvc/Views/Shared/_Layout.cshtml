@@ -1,11 +1,15 @@
-﻿<!DOCTYPE html>
+﻿@{
+    string username = User.Identity.Name;
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie store</title>
+    <title>Loja de Filmes</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/forms.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
@@ -16,23 +20,29 @@
 <body>
     <nav class="nav-bar">
         <div class="logo">
-            movie store
+            Loja de Filmes
         </div>
         <ul class="nav-link">
             <li><a class="active" href="/Home/Index">Home</a></li>
             <li><a href="/Home/About">About</a></li>
-            <li>
-                <a href="#">Admin <i class="fa fa-caret-down"></i></a>
+            @*@if (!string.IsNullOrEmpty(username))*@
+                @if (User.IsInRole("Admin"))
+            {
+                <li>
+                    <a href="#">Admin <i class="fa fa-caret-down"></i></a>
 
-                <ul class="dropdown-nav-link">
-                    <li><a href="/forms.html">Form</a></li>
-                    <li><a href="/table.html">Table</a></li>
-                        <li><a href="/UserAuthentication/Logout">Logout</a></li>
-                    <li><a href="#">Link 4</a></li>
-                    <li><a href="#">Logout</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Login</a></li>
+                    <ul class="dropdown-nav-link">
+                        <li><a href="/Genre/Add">Generos</a></li>
+                        <li><a href="/Movie/Add">Filmes</a></li>
+                        <li><a href="/UserAuthentication/Logout">Sair</a></li>
+                    </ul>
+                </li>
+            }
+
+            @if (string.IsNullOrEmpty(username))
+            {
+                <li><a href="/UserAuthentication/Login">Login</a></li>
+            }
         </ul>
     </nav>
     <div class="container">

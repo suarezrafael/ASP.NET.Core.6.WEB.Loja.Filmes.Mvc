@@ -1,4 +1,6 @@
 using ASP.NET.Core._6.Loja.Filmes.Mvc.Models.Domain;
+using ASP.NET.Core._6.Loja.Filmes.Mvc.Repositories.Abstract;
+using ASP.NET.Core._6.Loja.Filmes.Mvc.Repositories.Implementation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,6 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IUserAuthenticationService, UserAuthenticationService>();
+builder.Services.AddScoped<IGenreService, GenreService>();
+builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<IMovieService, MovieService>();
 
 builder.Services.AddDbContext<DatabaseContext>(opcoes =>
 {

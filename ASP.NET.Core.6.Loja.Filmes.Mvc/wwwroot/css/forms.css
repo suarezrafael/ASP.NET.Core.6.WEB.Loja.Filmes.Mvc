@@ -19,10 +19,10 @@ form{
 .pd-x-28{
   padding-left: 28.5%;
 }
-.input-container{
-  width: 100%;
-  display: flex;
-  padding: 0.4rem 0;
+.input-container {
+    width: 100%;
+    display: flex;
+    padding: 0.4rem 0;
 }
 label{
     padding-top:0.8rem;
@@ -31,14 +31,14 @@ label{
   color: var(--primary-color);
 
 }
-.input{
-    padding:0 0.5rem;
+.input {
+    padding: 0 0.5rem;
     border: 0;
-    box-shadow:0 1px 3px 0 rgb(43, 43, 43) ;
+    box-shadow: 0 1px 3px 0 rgb(43, 43, 43);
     font-size: 15px;
     width: 100%;
-  color: var(--primary-color);
-  border-radius: 5px;
+    color: var(--primary-color);
+    border-radius: 5px;
 }
 
 .alert{
